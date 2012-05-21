@@ -30,8 +30,8 @@ ln -s $PWD/target/$TARGET_APP_NAME $WEBAPP_DIR/webapps/$APP_NAME
 #$WEBAPP_DIR/bin/shutdown.sh
 $WEBAPP_DIR/bin/catalina.sh start
 
-wait
-open http://localhost:8080/$APP_NAME
+#wait
+#open http://localhost:8080/$APP_NAME
 
 
 
